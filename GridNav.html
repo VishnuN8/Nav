@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/8ed2d16469.js" crossorigin="anonymous"></script>
+    <title>Grid</title>
+
+<style>
+    .container{
+        display: grid;
+        grid-template-columns:auto auto auto auto ;
+        gap: 10px;
+        background-color: white;
+        place-content: center;
+        height: 100vh;
+        background-color: rgb(141, 135, 135);
+        height: 150px;
+        margin-left: 90px;
+        margin-right: 90px;
+        border-radius: 30px;
+        text-align: center;
+        column-gap: 40px;
+        padding: 20px;
+
+    }
+
+        .item0{
+        font-size: 60px;
+        border-radius: 10px;
+        grid-row: 1/-1;
+    }
+
+        .item1{
+        border-radius: 10px;
+        font-size: 60px;
+    }
+
+        .item2{
+        border-radius: 10px;
+        font-size: 60px;
+    }
+
+        .item3{
+        border-radius: 10px;
+        font-size: 60px;
+    }
+
+    .item0:hover{
+        transform: translateY(-20px);
+        font-size: 65px;
+        transition: ease-in-out 0.5s;
+        color: rgb(255, 0, 0);
+
+    }
+
+    .item1:hover{
+        transform: translateY(-20px);
+        font-size: 65px;        
+        transition: ease-in-out;
+        transition: ease-in-out 0.5s;
+        color: rgb(0, 94, 255);
+    }
+
+    .item2:hover{
+        transform: translateY(-20px);
+        font-size: 65px;        
+        transition: ease-in-out;
+        transition: ease-in-out 0.5s;
+        color: rgb(0, 145, 255);
+    }
+
+    .item3:hover{
+        transform: translateY(-20px);
+        font-size: 65px;        
+        transition: ease-in-out;
+        transition: ease-in-out 0.5s;
+        color: rgb(253, 253, 253);
+
+    }
+
+    a:visited{
+        color: black;
+
+    }
+    
+
+
+</style>
+
+</head>
+<body>
+
+
+<div class="container">
+
+<div class="item0"><!--<a href="https://meet.google.com/frd-gbqy-ejz">--><i class="fa-brands fa-youtube"></a></i></div>
+
+<div class="item1"><!--<a href="https://meet.google.com/frd-gbqy-ejz">--><i class="fa-brands fa-facebook"></a></i></div>
+
+<div class="item2"><!--<a href="https://meet.google.com/frd-gbqy-ejz">--><i class="fa-brands fa-twitter"></a></i></div>
+
+<div class="item3"><!--<a href="https://meet.google.com/frd-gbqy-ejz">--><i class="fa-solid fa-circle-xmark"></a></i></div>
+
+
+</div>
+
+
+    
+</body>
+</html>
